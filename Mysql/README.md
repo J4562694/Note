@@ -2,13 +2,13 @@
 
 ## 設定Conn資訊
 
-def getConn() -> Any:
-    return connector.connect(
-        host=Sqlstuff.host,
-        user=Sqlstuff.user,
-        password=Sqlstuff.password,
-        database=Sqlstuff.database
-    )
+>def getConn() -> Any:
+    >return connector.connect(
+        >host=Sqlstuff.host,
+        >user=Sqlstuff.user,
+        >password=Sqlstuff.password,
+        >database=Sqlstuff.database
+    >)
 
 ## 資料庫連接(新增東西上去)
 
